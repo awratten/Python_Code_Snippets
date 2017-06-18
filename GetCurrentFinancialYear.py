@@ -2,6 +2,13 @@ __author__ = "Anthony Wratten"
 __copyright__ = "Copyright 2017, Anthony Wratten"
 __version__ = "1.0.0"
 
+
+#
+# Comments: Useful code snippet for getting the current financial year
+# Returns: String eg. 2017/2018
+# Inputs: user must change the LastMonth variable to the month (number) for your country
+#
+
 import time
 
 def GetCurrentFinancialYear():
