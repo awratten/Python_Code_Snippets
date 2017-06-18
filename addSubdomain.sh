@@ -1,5 +1,6 @@
 #!/bin/bash
 echo "MUST HAVE FULLY QUALIFIED DOMAIN NAME SETUP:"
+echo ""
 echo "enter new subdomain - only string before domain.com"
 read varsub
 echo ""
