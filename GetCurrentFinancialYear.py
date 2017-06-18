@@ -1,3 +1,7 @@
+__author__ = "Anthony Wratten"
+__copyright__ = "Copyright 2017, Anthony Wratten"
+__version__ = "1.0.0"
+
 import time
 
 def GetCurrentFinancialYear():
