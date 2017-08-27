@@ -12,12 +12,12 @@ for num in range(999):
 		d = r.headers['content-disposition']
 		fname = re.findall("filename=(.+)", d)
 
-		fname = fname[-1]
-		fname = fname.replace('"', '')
+		fname = fname[-1] # Extract Filename string from list
+		fname = fname.replace('"', '') # Remove " from filename string
 
-		with open(str(num) + "_" + fname, 'wb') as f:
+		with open(str(num) + "_" + fname, 'wb') as f: # add document number to original filename
 			f.write(r.content)
 	except:
-		print('error' + str(num))
+		print('Error_' + str(num)) # print error message if no file is found
 
 # LAST FILE: "383_Window Film Training.pdf"
